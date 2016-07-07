@@ -39,7 +39,7 @@ def id(m):      # info menu
     p = m.pinned_message
     fromm = m.forward_from
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton("\xF0\x9F\x98\x8A Taylor Team \xF0\x9F\x98\x8A", url="https://telegram.me/taylor_team"))
+    markup.add(types.InlineKeyboardButton("\xF0\x9F\x98\x8A C S S T Team \xF0\x9F\x98\x8A", url="https://telegram.me/CyberSoldiersST"))
 #info text
     bot.send_chat_action(cid, "typing")
     bot.reply_to(m, "*ID from* : ```{}``` \n\n *Chat name* : ```{}``` \n\n\n *Your Username* : ```{}``` \n\n *Your First Name* : ```{}```\n\n *Your Last Name* : ```{}```\n\n *Type From* : ```{}``` \n\n *Msg data* : ```{}```\n\n *Your Msg* : ```{}```\n\n* pind msg * : ```{}```\n\n *from* : ```{}```".format(cid,title,usr,f,l,t,d,text,p,fromm), parse_mode="Markdown", reply_markup=markup)
